@@ -1,0 +1,12 @@
+# 强制所有文本文件在仓库内和任何人的工作区里都是 LF 行尾。
+# 否则在开了 core.autocrlf=true 的 Windows 上 clone 出来，
+# usr/sbin/auto-eportal.sh 会变成 CRLF，拷到路由器上会报
+# "/usr/sbin/auto-eportal.sh: not found" 之类的错。
+* text=auto eol=lf
+
+# 二进制文件不要做行尾转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary

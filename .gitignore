@@ -1,0 +1,25 @@
+# ==== 本地私有配置：含真实账号密码，绝对不要提交 ====
+my.conf
+*.local.conf
+auto-eportal.local.conf
+
+# ==== 调试过程留下的临时文件 ====
+auth.js
+auth80.js
+auth8080.js
+login_bch.js
+page.html
+ck.txt
+*.cookie
+*.calls
+*.log
+
+# ==== Python 缓存 ====
+__pycache__/
+*.pyc
+
+# ==== 编辑器/系统垃圾 ====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
