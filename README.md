@@ -1,4 +1,4 @@
-# auto-eportal —— 锐捷 ePortal 校园网自动认证（OpenWrt 版）
+青岛科技大学锐捷 ePortal 校园网自动认证（OpenWrt 版）
 
 仿照 [7Ji/auto-whu](https://github.com/7Ji/auto-whu)（用于武大校园网的 openwrt 自动认证脚本）编写，
 但适配的是**新版锐捷 ePortal 门户**，也就是形如：
